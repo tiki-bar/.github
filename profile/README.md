@@ -9,11 +9,16 @@
  
  ### 🧑‍💻 Prioritize user-centricity, transparency, and trust above all else.
  
+### L0 Services
+Backend services to support/interact with the TIKI DEX.
+- **L0 Registry** [l0-registry](https://github.com/tiki-bar/l0-registry)
+- **L0 Index** [l0-index](https://github.com/tiki-bar/l0-index)
+ 
 #### Mobile App
-For people to take data ownership a step further. More control, more transparency, and more compensation.
+Undergoing a major overhaul. Read the [whitepaper](https://github.com/tiki-bar/app/blob/main/WHITEPAPER.md)
 
 - **App:** [app](https://github.com/tiki-bar/app)
-- **Supporting Libs:** [app-data](https://github.com/tiki-bar/app-data), [app-strategy-msft](https://github.com/tiki-bar/app-strategy-msft), [app-strategy-goog](https://github.com/tiki-bar/app-strategy-goog), [app-login](https://github.com/tiki-bar/app-login), [dart-httpp](https://github.com/tiki-bar/dart-httpp), [app-wallet](https://github.com/tiki-bar/app-wallet), [app-syncchain](https://github.com/tiki-bar/app-syncchain), [app-account](https://github.com/tiki-bar/app-account), [app-decision](https://github.com/tiki-bar/app-decision), [app-carousel](https://github.com/tiki-bar/app-carousel), [app-style](https://github.com/tiki-bar/app-style), [app-localchain](https://github.com/tiki-bar/app-localchain), [app-localgraph](https://github.com/tiki-bar/app-localgraph), [app-money](https://github.com/tiki-bar/app-money), [flutter-kv](https://github.com/tiki-bar/flutter-kv), [app-spam-card](https://github.com/tiki-bar/app-spam-card), [flutter-zendesk](https://github.com/tiki-bar/flutter-zendesk), [flutter-upvoty](https://github.com/tiki-bar/flutter-upvoty)
+- **Supporting Libs:** [dart-httpp](https://github.com/tiki-bar/dart-httpp), [flutter-kv](https://github.com/tiki-bar/flutter-kv), [flutter-zendesk](https://github.com/tiki-bar/flutter-zendesk), [flutter-upvoty](https://github.com/tiki-bar/flutter-upvoty)
 - **Backend Services**: [app-bouncer](https://github.com/tiki-bar/app-bouncer)
 
 #### Data Pools
