@@ -1,0 +1,63 @@
+name: Bug Report
+description: Report any issues with the repository.
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Found a bug?
+        If you're unsure this is the right project, default to [platform](https://github.com/mytiki/platform/issues/new/choose)
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A summary of the bug. Please describe the bug in lots of detail.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Probably the most important part! To fix it, we first have to be able to reproduce it.
+      placeholder: |
+        1. (for example) Went to ...
+        2. Clicked on...
+        3. ...
+        Any other relevant information. For example, why do you consider this a bug and what did you expect to happen instead?
+    validations:
+      required: true
+  - type: input
+    id: actual
+    attributes:
+      label: Actual Results
+      description: What's happening right now that is different from what is expected
+      placeholder: (for example) Nothing happens when you click the button
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: Expected Results
+      description: This is an ideal result that the system should get after the tests are performed
+      placeholder: (for example) The page should refresh when you click the button
+    validations:
+      required: true
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical Details
+      description: Tell us as much as you can about your environment
+      placeholder: |
+        * Browser version
+        * Console logs
+        * Network requests
+        * etc.
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Providing evidence of your testing with screenshots or/and videos is an amazing way to prove the bug and a troubleshooting chance to find the solution.
+    validations:
+      required: true
