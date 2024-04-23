@@ -1,0 +1,49 @@
+name: Feature Request
+description: Suggest a feature or idea.
+labels: feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Tell us about your idea
+        If you're unsure this is the right project, default to [platform](https://github.com/mytiki/platform/issues/new/choose)
+  - type: input
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem does this feature solve?
+      placeholder: (for example) I want you to know everything I know.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: Describe the solution you'd like
+      placeholder: (for example) A 1/8" aux cable running from my brain to yours.
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Alternative
+      description: Describe any alternatives you've considered
+      placeholder: (for example) writing a manifesto and mailing it.
+    validations:
+      required: false
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Describe the success criteria. How will someone know it's "done done"?
+      placeholder: (for example) my consciousness resides with you.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Is there anything else we should know?
+      placeholder: (for example) 1 crazy person has expressed interest.
+    validations:
+      required: false
