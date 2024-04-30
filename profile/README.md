@@ -19,7 +19,5 @@
     <a href="https://docs.mytiki.com">Docs</a>
     ·
     <a href="https://github.com/orgs/mytiki/discussions">Support</a>
-    ·
-    <a href="https://github.com/tiki">Tiki inc.</a>
   </p>
 </p>
